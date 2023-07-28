@@ -36,7 +36,7 @@ Boolean checks:
 These return a new object:
 - `sign()`: Returns int `0` if zero, `-1` if negative, or `1` if positive.
 - `absolute()`: Returns the absolute (positive) value of this decimal.
-- `negation()`: Returns the negation (positive if negative and vice versa).
+- `negate()`: Returns the negation (positive if negative and vice versa).
 - `trim()`: Remove trailing zeros after the comma (same value, but different semantic meaning in term of precision/scale).
 
 Also:
